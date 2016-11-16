@@ -86,6 +86,10 @@ th, td{
   background-color: White;
 }
 
+#upcoming{
+  color: hsla(0, 0%, 60%, 0.5);
+}
+
 #washUtext{
   margin: 15px;
   position: absolute;
@@ -202,6 +206,10 @@ th, td{
   list-style-type: none;
   padding-left: 0px;
   line-height: 2em;
+}
+
+#bottom a{
+  color: white;
 }
 
 #bottom .col-md-3{
