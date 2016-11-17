@@ -110,9 +110,10 @@ th, td{
 
 #second-nav{
   position: absolute;
-  left: 1000px;
+  left: 935px;
   top: 130px;
   font-weight: bold;
+  width: 100%;
 }
 
 #second-nav a{
