@@ -28,8 +28,8 @@ h4 {
 
 table{
   box-shadow: 3px 3px 10px #888888;
-  position: relative;
-  left: 40px;
+  /*position: relative;
+  left: 40px;*/
 }
 
 th, td{
@@ -37,8 +37,11 @@ th, td{
   padding: 15px;
   text-align: left;
 }
+
 .col-md-4{
-  padding: 40px;
+  padding: 30px 15px;
+  margin: 0px;
+  width: 32%;
 }
 
 .navbar-default{
@@ -68,7 +71,7 @@ th, td{
   height: 420px;
   background-color: #6c7373;
   color: White;
-  margin: 25px 35px;
+  margin: 20px 20px;
   float: left;
 }
 
@@ -84,6 +87,13 @@ th, td{
 .spacewaste{
   height: 100px;
   background-color: White;
+  margin-left: auto;
+  margin-right: auto;
+  width: 540px;
+}
+
+.spacewaste a{
+  margin:0px;
 }
 
 #upcoming{
@@ -108,12 +118,44 @@ th, td{
   left: 5px;
 }
 
+#explore{
+  background-color: rgb(60, 148, 146);
+  color: White;
+  width: 250px;
+  height: 150px;
+  position: absolute;
+  left: 1300px;
+  top: 400px;
+  z-index: 10;
+  padding: 20px;
+}
+
+#explore h1{
+  color: White;
+  padding: 10px;
+  padding-left: 0px;
+  margin: 0px;
+  letter-spacing: 8px;
+}
+
+#explore small{
+  font-family: sans-serif;
+  font-size: 18px;
+  color: White;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#explore:hover{
+  background-color: Maroon;
+}
+
 #second-nav{
   position: absolute;
   left: 935px;
   top: 130px;
   font-weight: bold;
-  width: 100%;
 }
 
 #second-nav a{
@@ -129,13 +171,15 @@ th, td{
 #graphics{
   padding: 20px;
   position: relative;
-  left: 265px
+  left: -40px
 }
 
 #graphics .col-md-2{
   margin-left: 50px;
   margin-right: 50px;
   text-align: center;
+  position: relative;
+  left: 280px;
 }
 
 #graphics span{
@@ -160,14 +204,135 @@ th, td{
   margin: 0px;
 }
 
+#prospective{
+  /*background-color: #6c7373;*/
+  /*background-color: #3c3c3d;*/
+  background-color: maroon;
+  margin-top:20px;
+}
+
+#prospective div{
+  background-color: maroon;
+  border: 4px solid White;
+  width: 300px;
+  padding: 25px;
+  margin: 30px;
+  color: White;
+  text-align: center;
+  font-size: 20px;
+  display: inline-block;
+  position: relative;
+  left: 400px;
+}
+
+#prospective div:hover{
+  /*background-color: rgb(238, 238, 238);*/
+  background-color: white;
+  color: maroon;
+  border: 4px solid maroon;
+}
+
 #news{
   background-color: rgb(238, 238, 238);
-  height: 500px;
+  height: 67em;
+}
+
+#news .col-md-8{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#faculty-focus .col-md-6{
+  background-color: rgb(238, 238, 238);
+  height: 600px;
+}
+
+#faculty-focus .col-md-12{
+  background-color: rgb(238, 238, 238);
+}
+
+#faculty-focus h1{
+  margin: 30px;
+}
+
+.bio{
+  background-color: White;
+  margin: 70px;
+  padding: 20px;
+  height: 440px;
+}
+
+#profile1{
+  position: absolute;
+  left: 436px;
+  top: 66px;
+  width: 320px;
+}
+
+#profile2{
+  position: absolute;
+  left: 25px;
+  top: 65px;
+  width: 320px;
+}
+
+.desc1{
+  padding: 20px;
+  height: 400px;
+  border: 1px solid  #ffcc00;
+  width: 60%;
+  line-height: 2em;
+  font-family: inherit;
+}
+
+.desc1:hover{
+  background-color: #ffcc00;
+}
+
+.desc2{
+  padding: 20px;
+  height: 400px;
+  border: 1px solid rgb(97, 33, 102);
+  width: 60%;
+  line-height: 2em;
+  font-family: inherit;
+  float: right;
+}
+
+.desc2:hover{
+  background-color: rgb(97, 33, 102);
+  color: white;
+}
+
+.desc2:hover h2{
+  background-color: rgb(97, 33, 102);
+  color: white;
+}
+
+.people-role{
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: 600;
+  letter-spacing: 0.11em;
+}
+
+.desc1 h2{
+  font-size: 32px;
+}
+
+#social{
+  margin: 20px;
+}
+
+#social li{
+  margin: 10px;
 }
 
 #bottom{
   background-color:#3c3c3d;
   color: White;
+  margin: 0px;
+  padding: 0px;
 }
 
 #bottom img{
@@ -224,12 +389,9 @@ th, td{
 }
 
 #footer p{
-  height: 30px;
   color: White;
   text-transform: uppercase;
   font-size: 10px;
-  margin: 0px;
-  position: relative;
-  left: 1410px;
-  top: 5px;
+  margin-right: 30px;
+  float: right;
 }
